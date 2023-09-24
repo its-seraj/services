@@ -2,14 +2,14 @@
   "name": "services",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "devStart": "nodemon server.js",
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
     "build": "echo \"Running build script...\" && npm install"
   },
   "author": "",
