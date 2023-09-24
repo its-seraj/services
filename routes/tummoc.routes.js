@@ -3,7 +3,7 @@ const router = express.Router();
 
 const tummocController = require("../controller/tummoc");
 
-router.post("/addUser", tummocController.addUser);
-router.post("/isActive", tummocController.verify);
+router.get("/addUser", tummocController.addUser);
+router.get("/isActive", tummocController.verify);
 
 module.exports = router;
